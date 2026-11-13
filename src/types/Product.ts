@@ -39,7 +39,7 @@ export interface Reviews {
 
 export interface ProductMeta {
     createdAt: string;
-    updateAt: string;
+    updatedAt: string;
     barcode: string;
     qrCode: string;
 }
