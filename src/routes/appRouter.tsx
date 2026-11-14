@@ -1,8 +1,8 @@
-import React from "react";
+
 import { BrowserRouter, Route, Routes } from "react-router";
-import Navigation from "../components/navigation";
 import ProductList from "../pages/productList";
 import ProductDetails from "../pages/productDetails";
+import Navigation from "../components/navigation";
 
 export default function AppRouter() {
     return (

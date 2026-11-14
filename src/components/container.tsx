@@ -1,5 +1,11 @@
-export default function Container() {
+import type { ReactNode } from 'react';
+
+type Props = {
+  children: ReactNode;
+}
+
+export default function Container({ children }: Props) {
   return (
-    <div>Container</div>
+    <div className="py-4 mt-12 px-12">{children}</div>
   )
 }
